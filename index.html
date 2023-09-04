@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+
+    <title>PERSONAL PORTFOLIO - Sameer Sharma</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c4254e24a8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <span>MY PORTFOLIO</span>
+          <ul>
+            <li><a href="#header">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>WEB DEVELOPER</p>
+          <h1>Hey, I'm <span>Sameer Sharma</span> !<br /></h1>
+        </div>
+      </div>
+    </div>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="aboutpic.jpeg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I'm Sameer Sharma , i completed my studies from Kendriya vidyalaya
+              <br />
+              currently, i m pursuing Btech in computer science engineering from
+              GGSIPU. <br />I have developed my skills in WEB DEVELOPEMNT.
+              <br />
+              I would like to work on web development as my major skill. <br />
+              my skills are - <br />
+              HTML <br />
+              css <br />
+              JAVASCRIPT <br />
+              PYTHON
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                skills
+              </p>
+              <p class="tab-links" onclick="opentab('internships')">
+                internships
+              </p>
+              <p class="tab-links" onclick="opentab('education')">education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Web Development</span><br />
+                  website developement
+                </li>
+                <li>
+                  <span>App Development</span><br />
+                  Building android developement
+                </li>
+                <li>
+                  <span>PROGRAMMING LANGUAGE KNOWN</span> <br />
+                  C++<br />
+                  PYTHON <br />
+                  JAVA
+                
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="internships">
+              <ul>
+                <li>
+                  <span>2023- current</span><br />
+                  Internship at codesoft
+                </li>
+                <li>
+                  <span>2022</span><br />
+                  Internship at internshala in Web Development
+                </li>
+              
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2020-2024</span><br />
+                   BTECH information technology<br/>
+                   Dr. Akhilesh Das Gupta Institute of Technology & Management
+                </li>
+                <li>
+                  <span>2020</span><br />
+                  12th from kendriya vidyalaya <br />
+                  CBSE BOARDS got 62.3%
+                </li>
+                <li>
+                  <span>2017</span> <br />
+                  10th from kendriya vidyalaya <br />
+                  CBSE BOARDS got 70%
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fas fa-code"></i>
+            <h2>WEB DESIGN</h2>
+
+            <p>
+              Web design encompasses the process of creating and designing websites for the internet. 
+              It involves a combination of visual aesthetics, usability, and functionality to deliver an engaging and effective online presence
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-crop-alt"></i>
+            <h2>WEB DEVELOPMENT</h2>
+
+            <p>
+              
+              Web development refers to the process of building and maintaining websites and web applications. 
+              It encompasses a wide range of tasks, 
+              including writing code, designing user interfaces, managing databases, and ensuring the proper functioning of websites on various devices and browsers.
+            </p>
+          </div>
+          <div>
+            <i class="fab fa-app-store"> </i>
+            <h2>FRONTEND DEVELOPMENT</h2>
+
+            <p>
+              Front-end developers focus on the client-side of web development. 
+              They work on the parts of a website or web application that users interact with directly. Key technologies and languages used in front-end development include HTML (Hypertext Markup Language), CSS (Cascading Style Sheets), and JavaScript. 
+              Front-end developers are responsible for creating the layout, design, and interactivity of web pages.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="work4.png" />
+            <div class="layer">
+              <h3>Bankist</h3>
+              <p>A website to display the qualitites of a banking app.</p>
+            </div>
+          </div>
+          <div class="work">
+            <img src="work2.png" />
+            <div class="layer">
+              <h3>Mapty</h3>
+              <p>
+                An interactive app to keep track of your daily exercises around
+                the block.
+              </p>
+            </div>
+          </div>
+          <div class="work">
+            <img src="pglife.jpg" />
+            <div class="layer">
+              <h3>PgLife</h3>
+              <p>
+                A website to find the available pgs in a cheap and convenient
+                way.
+              </p>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/sameersharma457" class="btn">See More</a>
+      </div>
+    </div>
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i> sameerbsharma146@gmail.com</p>
+            <p><i class="fas fa-phone-square-alt"></i> 7982462571</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/profile.php?id=100009180690055"
+                ><i class="fab fa-facebook"></i
+              ></a>
+
+              <a href="https://github.com/sameersharma457"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/sameer-sharma146/"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </div>
+            <a href="Sameer_ resume.pdf" download class="btn btn2"
+              >Download Resume</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+                required
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbxSuWEpV3mF_IcQU2kCK3YM95_k0w7b3FzQQ9Z_Uv4Mfk9nYZZIMp5ROupTKvuCy7_gVQ/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = " Message Sent Succesfully";
+            setTimeout(function () {
+              msg.innerHTML = " ";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
